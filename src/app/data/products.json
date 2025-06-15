@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with adjustable DPI",
+    "price": 599,
+    "category": "Electronics",
+    "imageUrl": "../../assets/images/wireless-mouse.jpg",
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Speaker",
+    "description": "Portable Bluetooth speaker with deep bass",
+    "price": 1499,
+    "category": "Electronics",
+    "imageUrl": "../../assets/images/bluetooth-speaker.jpg",
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "description": "Lightweight and breathable running shoes",
+    "price": 2499,
+    "category": "Footwear",
+    "imageUrl": "../../assets/images/running-shoes.jpg",
+    "rating": 4.7,
+    "inStock": false
+  },
+  {
+    "id": 4,
+    "name": "Analog Watch",
+    "description": "Stylish analog wristwatch with leather strap",
+    "price": 999,
+    "category": "Accessories",
+    "imageUrl": "../../assets/images/analog-watch.jpg",
+    "rating": 4.0,
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "LED Monitor",
+    "description": "24-inch full HD LED monitor",
+    "price": 7999,
+    "category": "Electronics",
+    "imageUrl": "../../assets/images/led-monitor.jpg",
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Backpack",
+    "description": "Water-resistant backpack for daily use",
+    "price": 899,
+    "category": "Bags",
+    "imageUrl": "../../assets/images/black-bag.jpg",
+    "rating": 4.1,
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Smartphone",
+    "description": "Android smartphone with 6GB RAM and 128GB storage",
+    "price": 12999,
+    "category": "Electronics",
+    "imageUrl": "../../assets/images/smartphone.jpg",
+    "rating": 4.6,
+    "inStock": false
+  },
+  {
+    "id": 8,
+    "name": "Yoga Mat",
+    "description": "Non-slip yoga mat with carry strap",
+    "price": 499,
+    "category": "Fitness",
+    "imageUrl": "../../assets/images/yoga-mat.webp",
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "Sunglasses",
+    "description": "UV-protected unisex sunglasses",
+    "price": 699,
+    "category": "Accessories",
+    "imageUrl": "../../assets/images/sunglasses.webp",
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Laptop Stand",
+    "description": "Adjustable and foldable laptop stand",
+    "price": 1099,
+    "category": "Accessories",
+    "imageUrl": "../../assets/images/laptop-stand.jpg",
+    "rating": 4.5,
+    "inStock": true
+  }
+]

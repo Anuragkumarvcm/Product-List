@@ -1,0 +1,20 @@
+<div class="container mt-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div *ngFor="let product of products" class="col">
+            <div class="card h-100 shadow-sm">
+                <img [src]="product.imageUrl" class="card-img-top" alt="{{ product.name }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ product.name }}</h5>
+                    <p class="card-text">{{ product.description }}</p>
+                    <p class="card-text text-primary fw-bold">₹{{ product.price }}</p>
+                    <p class="card-text"><strong>Category:</strong> {{ product.category }}</p>
+                    <p class="card-text"><strong>Rating:</strong> {{ product.rating }}</p>
+                </div>
+                <div class="card-footer bg-transparent border-top-0">
+                    <span class="badge bg-success" *ngIf="product.inStock; else outOfStock">In Stock</span>
+                    <ng-template #outOfStock><span class="badge bg-danger">Out of Stock</span></ng-template>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
