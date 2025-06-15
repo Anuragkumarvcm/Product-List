@@ -1,27 +1,86 @@
-# Products
+# Angular Product Catalog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+This is a simple Angular project that displays a catalog of products. The project demonstrates how to use Angular components, services, and models, and how to import and use JSON data in an Angular application.
 
-## Development server
+## Features
+- Product listing with images
+- Product details using a model
+- Responsive UI with basic styles
+- Static product data loaded from a JSON file
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Project Structure
+```
+products/
+├── angular.json
+├── package.json
+├── README.md
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.spec.json
+└── src/
+    ├── favicon.ico
+    ├── index.html
+    ├── main.ts
+    ├── styles.css
+    ├── app/
+    │   ├── app.component.css
+    │   ├── app.component.html
+    │   ├── app.component.spec.ts
+    │   ├── app.component.ts
+    │   ├── app.module.ts
+    │   ├── data/
+    │   │   └── products.json
+    │   └── model/
+    │       └── product.model.ts
+    └── assets/
+        └── images/
+            ├── analog-watch.jpg
+            ├── black-bag.jpg
+            ├── bluetooth-speaker.jpg
+            ├── laptop-stand.jpg
+            ├── led-monitor.jpg
+            ├── running-shoes.jpg
+            ├── smartphone.jpg
+            ├── sunglasses.webp
+            ├── wireless-mouse.jpg
+            └── yoga-mat.webp
+```
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prerequisites
+- Node.js (v14 or above)
+- npm (v6 or above)
+- Angular CLI (v12 or above)
 
-## Build
+### Installation
+1. Clone the repository or download the project files.
+2. Navigate to the `products` directory:
+   ```sh
+   cd products
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Running the Application
+Start the development server:
+```sh
+ng serve
+```
+Open your browser and go to `http://localhost:4200/` to view the app.
 
-## Running unit tests
+## Usage
+- Browse the list of products on the main page.
+- Each product displays an image, name, and other details.
+- Product data is loaded from `src/app/data/products.json`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Project Details
+- **Framework:** Angular
+- **Language:** TypeScript
+- **Data Source:** Static JSON file
+- **Images:** Located in `src/assets/images/`
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+This project is for educational purposes.
